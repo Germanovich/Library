@@ -1,0 +1,32 @@
+.main {
+    padding: 15vh 0;
+    height: calc(100vh - 56px);
+    min-height: 170px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+*.form-control.me-2 {
+    width: 40vh;
+}
+
+.main input[type="text"] {
+    margin-bottom: 1vh;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-primary {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.btn-secondary {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+
